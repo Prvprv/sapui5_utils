@@ -1,0 +1,22 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns="sap.m">
+  <Dialog id="Dialog" title="Шаблон"
+    contentWidth="40rem"
+    resizable="true"
+    draggable="true">
+    <customHeader>
+    </customHeader>
+    <content>
+      <List>
+        <items>
+          <CustomListItem type="Navigation" press=".triggerSomeEvent1">
+          </CustomListItem>
+          <CustomListItem type="Navigation" press=".triggerSomeEvent2">
+          </CustomListItem>
+        </items>
+      </List>
+    </content>
+    <buttons>
+      <Button text="Отмена" press=".cancel"/>
+    </buttons>
+  </Dialog>
+</core:FragmentDefinition>
